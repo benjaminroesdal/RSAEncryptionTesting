@@ -1,0 +1,15 @@
+﻿syntax = "proto3";
+
+option optimize_for = SPEED;
+
+message Dish {
+	string name = 1;
+	string developer = 2;
+	int32 release_year = 3;
+}
+
+message PremiumDish {
+	string name = 1;
+	string quality = 2;
+	int32 price = 3;
+}
