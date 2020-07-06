@@ -1,0 +1,9 @@
+﻿syntax = "proto3";
+
+option optimize_for = SPEED;
+
+message Game {
+	string name = 1;
+	string developer = 2;
+	int32 release_year = 3;
+}
